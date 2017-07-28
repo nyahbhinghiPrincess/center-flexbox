@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+
+  -ms-flex-align: center; /* IE 10 */
+  align-items: center;
+
+  -ms-flex-pack: center; /* IE 10 */
+  justify-content: center;
+/***** Photo Options *****/
+/*http://3.bp.blogspot.com/-Fk08MtarNOM/Trg811J9xDI/AAAAAAAAAB8/SKGQd_UdXfQ/s1600/africa%255B1%255D.jpg
+https://s-media-cache-ak0.pinimg.com/originals/04/9f/24/049f24db18bf3329f726f67189049d62.jpg*/
+  margin: 0;
+  height: 100%;
+  width: 100%; /* needed for Firefox */
+  background: url('http://3.bp.blogspot.com/-Fk08MtarNOM/Trg811J9xDI/AAAAAAAAAB8/SKGQd_UdXfQ/s1600/africa%255B1%255D.jpg') bottom center no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  display: -ms-flexbox;
+  display: flex;
+
+  -ms-flex-align: center;
+  align-items: center;
+
+  height: 10rem;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  color: #fff;
+  background: #f16059;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 4.5vw;
+}
